@@ -1,0 +1,1 @@
+c:\xampp\php\php.exe c:\xampp\htdocs\skproject_new\utility\email_blaster.php

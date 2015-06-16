@@ -1,0 +1,27 @@
+<table class="table table-condensed table-hover ">
+							<tbody><tr><td><b>No.</b></td><td><b>divisi_id</b></td><td><b>Keterangan</b></td><td><b>Periode</b></td>
+							<td><b>Budget Ammount</b></td><td><b>Used Ammount</b></td><td><b>Outstanding</b></td><td><b>( % )</b></td></tr><tr>
+									<td>1.</td>
+									<td>MKT</td>
+									<td>BUDGET DIVISI GROUP BULAN JANUARI 2014</td>
+									<td>Jan'14</td>
+									<td>503.597.000,00</td>
+									<td>3.597.000,00</td>
+									<td>500.000.000,00</td>
+									<td>0,71 %</td>
+								</tr><tr>
+									<td>2.</td>
+									<td>NPDBDV</td>
+									<td>BUDGET BULAN JANUARI 2014</td>
+									<td>Jan'14</td>
+									<td>117.300.000,00</td>
+									<td>25.950.206,00</td>
+									<td>91.349.794,00</td>
+									<td>22,12 %</td>
+								</tr><tr>
+							<td colspan="3"></td><td><b>TOTAL</b></td>
+							<td><b>620.897.000,00</b></td>
+							<td><b>29.547.206,00</b></td>
+							<td><b>591.349.794,00</b></td>
+							<td><b>4,76 %</b></td>
+						 </tr></tbody></table>

@@ -1,0 +1,50 @@
+create tabel approval_limit 
+=============================================
+create table approval_limit 
+id int(10) primary key autoincrement
+nominal decimal(18,2) 
+user_id varchar(30)
+created_at timestamps
+
+tambahkan modul diskproject
+=============================================
+1. nama modul "Approval Limit"
+2. link "?r=approval_limit"
+3. urut = 0
+4. aplikasi pilih "master"
+
+buka app/content.php
+==============================================
+1. tambahkan fungsi :
+		elseif (($_GET['r'])=='approval_limit'){
+			include "modul/mod_approvallimit/approvallimit.php";
+		}
+
+2. buat folder mod_approvallimit di folder app/modul 
+3. buat file modul/mod_approvallimit/approvallimit.php 
+4. buat file modul/mod_approfallimit/aksi_approvallimit.php 
+
+
+mod_promoapproval
+===============================================
+1. perubahan keterangan status di tab reco pending diberi keterangan warna
+2. filter untuk user yang diberi approval_limit
+3. penambahan kolom complete, approval 1, approval 2 dan status.
+4. filter di editapproval menampilkan button untuk user yang memiliki approval limit
+5. pemberian note dibawah..
+6. reco approved rubah cara pencariannya dengan pdo , penambahan kolom complete , approval 1 dan approval 2 serta status yang ada.
+
+menu.php
+==================================================
+1. edit script untuk menampilkan appnya dan module karena kalau menggunakan view tidak masuk.
+
+
+create table versioning
+============================================
+ CREATE TABLE `skproject_dev`.`version` (
+`version_id` VARCHAR( 10 ) NOT NULL ,
+`keterangan` TEXT NOT NULL ,
+`tgl_publish` DATE NOT NULL ,
+PRIMARY KEY ( `version_id` )
+) ENGINE = MYISAM 
+

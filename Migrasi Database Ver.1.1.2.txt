@@ -1,0 +1,19 @@
+create ulang view master budget
+=========================================
+drop view v_master_budget;
+create view v_master_budget as 
+SELECT a.*,b.divisi_name,c.department_name,d.subdepartemen_name FROM master_budget  a,master_divisi b ,master_department c, master_subdepartemen d where a.divisi_id=b.divisi_id and a.department_id=c.department_id and a.subdepartemen_id=d.subdepartemen_id and b.divisi_id=c.divisi_id and c.department_id=d.department_id;
+
+
+create email 
+===========================================
+create table email (
+id int(10) auto_increment not null,
+to_cc varchar(255),
+subject varchar(255),
+body text,
+header text,
+kode varchar(255),
+status varchar(255),
+date datetime,
+primary key(id))

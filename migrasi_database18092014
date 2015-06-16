@@ -1,0 +1,1 @@
+ALTER TABLE `reco_request` ADD `close` INT(1) NOT NULL ;

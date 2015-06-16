@@ -1,0 +1,73 @@
+date/time         : 2014-10-23, 18:00:17, 718ms
+computer name     : KINOSALES
+user name         : Administrator <admin>
+registered owner  : KSI / KSI
+operating system  : Windows 2003 R2 Service Pack 2 build 3790
+system language   : English
+system up time    : 3 hours 43 minutes
+program up time   : 107 milliseconds
+processors        : 2x Intel(R) Core(TM)2 Duo CPU E7300 @ 2.66GHz
+physical memory   : 2647/3063 MB (free/total)
+free disk space   : (C:) 22.27 GB (D:) 31.92 GB
+display mode      : 1280x1024, 32 bit
+process id        : $6e4
+allocated memory  : 3.71 MB
+command line      : D:\xampp\sendmail\sendmail.exe -t
+executable        : sendmail.exe
+exec. date/time   : 2011-06-18 01:10
+compiled with     : Delphi 2006/07
+madExcept version : 3.0l
+callstack crc     : $1d5da2f6, $cefab074, $cefab074
+exception number  : 1
+exception class   : EIdSocketError
+exception message : Socket Error # 11001 Host not found.
+
+main thread ($24c):
+00435e23 +0073 sendmail.exe IdStack                        706  +42 TIdStack.RaiseSocketError
+00433faf +0123 sendmail.exe IdStackWindows                1227  +55 TIdStackWindows.HostByName
+00435a75 +006d sendmail.exe IdStack                        571  +10 TIdStack.ResolveHost
+00440a70 +00fc sendmail.exe IdIOHandlerStack               314  +23 TIdIOHandlerStack.ConnectClient
+0046554d +0031 sendmail.exe IdSSLOpenSSL                  2086   +8 TIdSSLIOHandlerSocketOpenSSL.ConnectClient
+00444a9f +0063 sendmail.exe IdIOHandlerSocket              335  +13 TIdIOHandlerSocket.Open
+00465637 +0007 sendmail.exe IdSSLOpenSSL                  2122   +1 TIdSSLIOHandlerSocketOpenSSL.Open
+0044157d +0235 sendmail.exe IdTCPClient                    318  +53 TIdTCPClientCustom.Connect
+00445cc8 +00a4 sendmail.exe IdExplicitTLSClientServerBase  257  +23 TIdExplicitTLSClient.Connect
+0045ab7b +0017 sendmail.exe IdSMTP                         373   +2 TIdSMTP.Connect
+004b5f14 +1060 sendmail.exe sendmail                       808 +326 initialization
+
+stack dump:
+0012fca8  28 5e 43 00 de fa ed 0e - 01 00 00 00 07 00 00 00  (^C.............
+0012fcb8  bc fc 12 00 28 5e 43 00 - 20 cc a3 00 ec 28 43 00  ....(^C......(C.
+0012fcc8  40 50 a3 00 f9 2a 00 00 - f8 fc 12 00 d8 fc 12 00  @P...*..........
+0012fcd8  00 fd 12 00 c8 4b 40 00 - f8 fc 12 00 00 00 00 00  .....K@.........
+0012fce8  00 00 00 00 00 00 00 00 - f9 2a 00 00 40 50 a3 00  .........*..@P..
+0012fcf8  44 fd 12 00 b2 3f 43 00 - 6c fd 12 00 c8 4b 40 00  D....?C.l....K@.
+0012fd08  44 fd 12 00 94 fd 12 00 - 4b 02 00 00 ec 28 43 00  D.......K....(C.
+0012fd18  00 00 00 00 00 00 00 00 - 02 00 00 00 01 00 00 00  ................
+0012fd28  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0012fd38  00 00 00 00 00 00 00 00 - 00 00 00 00 60 fd 12 00  ............`...
+0012fd48  77 5a 43 00 8c fd 12 00 - 00 00 00 00 ff ff ff 00  wZC.............
+0012fd58  c8 a9 a4 00 40 50 a3 00 - 98 fd 12 00 75 0a 44 00  ....@P......u.D.
+0012fd68  8c fd 12 00 a0 fd 12 00 - c8 4b 40 00 98 fd 12 00  .........K@.....
+0012fd78  00 00 00 00 80 81 9c 00 - 80 81 9c 00 90 69 a2 00  .............i..
+0012fd88  00 00 00 00 00 00 00 00 - 00 00 00 00 80 81 9c 00  ................
+0012fd98  b4 fd 12 00 52 55 46 00 - c8 fd 12 00 c8 4b 40 00  ....RUF......K@.
+0012fda8  b4 fd 12 00 00 00 00 01 - 80 81 9c 00 fc fd 12 00  ................
+0012fdb8  a5 4a 44 00 80 81 9c 00 - 3c 56 46 00 83 15 44 00  .JD.....<VF...D.
+0012fdc8  d4 fd 12 00 5f 4d 40 00 - fc fd 12 00 28 fe 12 00  ...._M@.....(...
+0012fdd8  c8 4b 40 00 fc fd 12 00 - 00 00 00 00 80 81 9c 00  .K@.............
+
+disassembling:
+[...]
+00435e13       push    eax
+00435e14       mov     ecx, [ebp-8]
+00435e17       mov     dl, 1
+00435e19       mov     eax, [$4352ac]
+00435e1e       call    -$717 ($43570c)        ; IdStack.EIdSocketError.CreateError
+00435e23     > call    -$3113c ($404cec)      ; System.@RaiseExcept
+00435e28 707   xor     eax, eax
+00435e2a       pop     edx
+00435e2b       pop     ecx
+00435e2c       pop     ecx
+00435e2d       mov     fs:[eax], edx
+[...]

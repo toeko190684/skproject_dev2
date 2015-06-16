@@ -1,0 +1,72 @@
+CREATE VIEW V_SEC_USER_RULES
+========================================================================================
+
+drop view v_sec_user_rules;
+create view v_sec_user_rules as select a.pro_id,a.pro_name,b.app_id,b.app_name,b.image,b.app_location,b.urut,c.module_id,c.module_name,c.link,d.user_id,d.password,d.full_name,d.hp,d.email,d.department_id,d.divisi_id,d.grade_id,d.atasan1,d.atasan2,d.foto,e.id,e.c,e.r,e.u,e.d from sec_pro a, sec_app b, sec_app_module c , sec_users d, sec_user_rules e where a.pro_id=b.pro_id and b.app_id=c.app_id and d.user_id=e.user_id and c.module_id=e.module_id;
+
+
+
+CREATE VIEW V_MASTER_BUDGET
+========================================================================================
+drop view v_master_budget;
+create view v_master_budget as SELECT a.kode_budget,a.keterangan,a.divisi_id,a.department_id,a.subdepartemen_id,a.bulan,a.tahun,a.tgl_input,a.value,a.user,b.divisi_name,c.department_name,d.subdepartemen_name FROM master_budget a,master_divisi b,master_department c, master_subdepartemen d where a.divisi_id=b.divisi_id and a.department_id=c.department_id and a.subdepartemen_id= d.subdepartemen_id;
+
+
+CREATE VIEW V_RECO_REQUEST
+========================================================================================
+drop view v_reco_request;
+create view v_reco_request as select a.kode_promo,a.tgl_promo,a.area_id,a.distributor_id,a.grouppromo_id,a.promotype_id,a.class_id,a.account_id,a.title,a.tgl_awal,a.tgl_akhir,a.total_sales_target,a.background,a.promo_mechanisme,a.claim_mechanisme,a.claimtradeoff,a.cost_of_promo,a.typeofcost,a.cost_rasio,a.status,a.complete,a.tgl_complete,a.jenis_biaya,a.created_by,a.last_update,a.approval1,a.tgl_approval1,a.approval2,a.tgl_approval2,b.divisi_id,b.departemen_id,b.subdepartemen_id,c.divisi_name,d.department_name,e.subdepartemen_name,f.area_name,g.distributor_name,h.grouppromo_name,i.promotype_name from reco_request a, detail_reco_item b,master_divisi c, master_department d,master_subdepartemen e,area f,distributor g, master_grouppromo h, master_promotype i where a.kode_promo=b.kode_reco and b.divisi_id=c.divisi_id and b.departemen_id=d.department_id and b.subdepartemen_id=e.subdepartemen_id and a.area_id=f.area_id and a.distributor_id=g.distributor_id and a.grouppromo_id=h.grouppromo_id and a.promotype_id=i.promotype_id and c.divisi_id=d.divisi_id and d.department_id=e.department_id and h.grouppromo_id=i.grouppromo_id
+
+
+CREATE TABLE VENDOR
+=======================================================================================
+DROP TABLE vendor;
+CREATE TABLE vendor(
+vendor_id varchar(10) not null,
+vendor_name varchar(40) not null,
+ap_account_type varchar(2) not null,
+ap_account_id varchar(10) not null,
+primary key(vendor_id)
+);
+INSERT INTO VENDOR VALUES('MKTRECO','MARKETING','2','207.1002');
+INSERT INTO VENDOR VALUES('HTG PRM','HUTANG PROMOSI','2','203.1007');
+
+
+
+MODIFY TABLE CLAIM_REQUEST -->ADD FIELD VENDOR_ID
+========================================================================================
+alter table claim_request add vendor_id varchar(10) after coa;
+
+
+
+CREATE TABLE DETAIL_RECO_ATTACHMENT
+========================================================================================
+drop table detail_reco_attachment;
+CREATE TABLE detail_reco_attachment(
+id int(10) not null auto_increment,
+kode_promo varchar(255) not null,
+nama_file varchar(255) not null,
+file mediumblob,
+type varchar(255) not null,
+size int(10) not null default 0,
+primary key(id)
+);
+
+ADD DATA IN SEC_APP_MODULE
+=========================================================================================
+INSERT INTO SEC_APP_MODULE values(52,'Reco Attachment','?r=recoattachment',44,0);
+INSERT INTO SEC_APP_MODULE values(53,'Acc Claim Report','?r=acc_claim_report',52,0);
+INSERT INTO SEC_APP_MODULE values(54,'Acc Reco Report','?r=acc_reco_report',52,0);
+INSERT INTO SEC_APP_MODULE values(55,'Acc Budget Report','?r=acc_budget_report',52,0);
+INSERT INTO SEC_APP_MODULE values(56,'Acc Reco vs Claim','?r=acc_reco_claim',52,0);
+INSERT INTO SEC_APP_MODULE values(57,'MKT Reco Report','?r=mkt_reco_report',52,0);
+INSERT INTO SEC_APP_MODULE values(50,'Vendor','?r=vendor',50,0);
+INSERT INTO SEC_APP_MODULE values(51,'Surat Program','?r=suratprogram',52,0);
+INSERT INTO SEC_APP_MODULE values(58,'BOD Promotion Report','?r=bod_promotion_report',52,0);
+
+
+
+
+
+
+

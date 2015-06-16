@@ -1,0 +1,133 @@
+<table class="table table-bordered table-hover">
+					     <tbody><tr><td><b>No.</b></td><td><b>Kode Reco</b></td><td><b>Title</b></td>
+						     <td><b>Claim Number System</b></td><td><b>Claim Date</b></td><td><b>Claim Deskripsi</b></td><td><b>Claim Approved Ammount</b></td>
+						 </tr><tr>
+								<td>1.</td>
+								<td>RC/MKI/MKT/CY/14010001</td>
+								<td>Biaya Gathering Candy Feb 14</td>
+								<td>CL/MKI/FA/ACC/14030325</td>
+								<td>3/11/2014</td>
+								<td>Biaya Gathering Candy Feb 14</td>
+								<td>1,223,632.00</td>
+							 </tr><tr><td colspan="5"></td><td><b>SUBTOTAL</b></td><td><b>1,223,632.00</b></td></tr><tr>
+								<td>2.</td>
+								<td>RC/MKI/MKT/CY/14010008</td>
+								<td>Sponsor Kaos Paralayang Bali</td>
+								<td>CL/MKI/FA/ACC/14030320</td>
+								<td>3/11/2014</td>
+								<td>Sponsor Kaos Paralayang Bali</td>
+								<td>25,412,500.00</td>
+							 </tr><tr><td colspan="5"></td><td><b>SUBTOTAL</b></td><td><b>25,412,500.00</b></td></tr><tr>
+								<td>3.</td>
+								<td>RC/MKI/MKT/CY/14010009</td>
+								<td>Topi Kino Candy</td>
+								<td>CL/MKI/FA/ACC/14030323</td>
+								<td>3/11/2014</td>
+								<td>Topi Kino Candy</td>
+								<td>13,318,182.00</td>
+							 </tr><tr><td colspan="5"></td><td><b>SUBTOTAL</b></td><td><b>13,318,182.00</b></td></tr><tr>
+								<td>4.</td>
+								<td>RC/MKI/MKT/CY/14010010</td>
+								<td>Goddie Bag Kino Candy</td>
+								<td>CL/MKI/FA/ACC/14030454</td>
+								<td>3/20/2014</td>
+								<td>Goddie Bag Kino Candy</td>
+								<td>973,495.00</td>
+							 </tr><tr><td colspan="5"></td><td><b>SUBTOTAL</b></td><td><b>973,495.00</b></td></tr><tr>
+								<td>5.</td>
+								<td>RC/MKI/MKT/CY/14010012</td>
+								<td>Sample /Produck Sponsor</td>
+								<td>CL/MKI/FA/ACC/14030662</td>
+								<td>3/1/2014</td>
+								<td>056/CN-MKI/III/2014-Sample /Produck Sponsor</td>
+								<td>700,000.00</td>
+							 </tr><tr><td colspan="5"></td><td><b>SUBTOTAL</b></td><td><b>700,000.00</b></td></tr><tr>
+								<td>6.</td>
+								<td>RC/MKI/MKT/CY/14010013</td>
+								<td>Biaya Ekspedisi Kirim POSM</td>
+								<td>CL/MKI/FA/ACC/14030366</td>
+								<td>3/17/2014</td>
+								<td>Biaya Ekspedisi Kirim POSM</td>
+								<td>1,089,000.00</td>
+							 </tr><tr><td colspan="5"></td><td><b>SUBTOTAL</b></td><td><b>1,089,000.00</b></td></tr><tr>
+								<td>7.</td>
+								<td>RC/MKI/MKT/CY/14020017</td>
+								<td>Biaya Tiket dan Akomodasi Air show Bali</td>
+								<td>CL/MKI/FA/ACC/14030345</td>
+								<td>3/13/2014</td>
+								<td>Biaya Tiket dan Akomodasi Air show Bali</td>
+								<td>325,600.00</td>
+							 </tr><tr><td colspan="5"></td><td><b>SUBTOTAL</b></td><td><b>325,600.00</b></td></tr><tr>
+								<td>8.</td>
+								<td>RC/MKI/MKT/CY/14020017</td>
+								<td>Biaya Tiket dan Akomodasi Air show Bali</td>
+								<td>CL/MKI/FA/ACC/14030449</td>
+								<td>3/20/2014</td>
+								<td>Biaya Tiket dan Akomodasi Air show Bali</td>
+								<td>18,587,400.00</td>
+							 </tr><tr>
+								<td>9.</td>
+								<td>RC/MKI/MKT/CY/14020018</td>
+								<td>Biaya Gathering Candy</td>
+								<td>CL/MKI/FA/ACC/14030683</td>
+								<td>3/28/2014</td>
+								<td>Biaya Gathering Candy</td>
+								<td>888,000.00</td>
+							 </tr><tr><td colspan="5"></td><td><b>SUBTOTAL</b></td><td><b>19,475,400.00</b></td></tr><tr>
+								<td>10.</td>
+								<td>RC/MKI/MKT/CY/14020023</td>
+								<td>Biaya Eksedisi kirim POSM</td>
+								<td>CL/MKI/FA/ACC/14030367</td>
+								<td>3/17/2014</td>
+								<td>Biaya Eksedisi kirim POSM</td>
+								<td>2,000,000.00</td>
+							 </tr><tr><td colspan="5"></td><td><b>SUBTOTAL</b></td><td><b>2,000,000.00</b></td></tr><tr>
+								<td>11.</td>
+								<td>RC/MKI/MKT/CY/14030026</td>
+								<td>Biaya PD dan OP Maret 2014</td>
+								<td>CL/MKI/FA/ACC/14030613</td>
+								<td>3/27/2014</td>
+								<td>Biaya PD dan OP Maret 2014</td>
+								<td>1,392,000.00</td>
+							 </tr><tr><td colspan="5"></td><td><b>SUBTOTAL</b></td><td><b>1,392,000.00</b></td></tr><tr>
+								<td>12.</td>
+								<td>RC/MKI/MKT/CY/14030026</td>
+								<td>Biaya PD dan OP Maret 2014</td>
+								<td>CL/MKI/FA/ACC/14030614</td>
+								<td>3/27/2014</td>
+								<td>Biaya PD dan OP Maret 2014</td>
+								<td>1,675,000.00</td>
+							 </tr><tr>
+								<td>13.</td>
+								<td>RC/MKI/MKT/CY/14030026</td>
+								<td>Biaya PD dan OP Maret 2014</td>
+								<td>CL/MKI/FA/ACC/14030615</td>
+								<td>3/27/2014</td>
+								<td>Biaya PD dan OP Maret 2014</td>
+								<td>839,000.00</td>
+							 </tr><tr>
+								<td>14.</td>
+								<td>RC/MKI/MKT/CY/14030026</td>
+								<td>Biaya PD dan OP Maret 2014</td>
+								<td>CL/MKI/FA/ACC/14030677</td>
+								<td>3/28/2014</td>
+								<td>Biaya PD dan OP Maret 2014</td>
+								<td>1,094,000.00</td>
+							 </tr><tr>
+								<td>15.</td>
+								<td>RC/MKI/MKT/CY/14030034</td>
+								<td>Konsumsi Meeting dan Entertainment</td>
+								<td>CL/MKI/FA/ACC/14030628</td>
+								<td>3/28/2014</td>
+								<td>Konsumsi Meeting dan Entertainment</td>
+								<td>78,500.00</td>
+							 </tr><tr><td colspan="5"></td><td><b>SUBTOTAL</b></td><td><b>3,686,500.00</b></td></tr><tr>
+								<td>16.</td>
+								<td>RC/MKI/MKT/CY/14030034</td>
+								<td>Konsumsi Meeting dan Entertainment</td>
+								<td>CL/MKI/FA/ACC/14030644</td>
+								<td>3/28/2014</td>
+								<td>Konsumsi Meeting dan Entertainment</td>
+								<td>157,900.00</td>
+							 </tr><tr><td colspan="5"></td><td><b>SUBTOTAL</b></td><td><b>157,900.00</b></td></tr>
+					     <tr><td colspan="5"></td><td><b>TOTAL</b></td><td><b>26,542,300.00</b></td></tr></tbody></table>
